@@ -4,6 +4,8 @@
 	"private": true,
 	"type": "module",
 	"scripts": {
+		"format": "bun run lint && biome format --write",
+		"lint": "biome lint --fix",
 		"typecheck": "tsc --noEmit",
 		"dev": "vite --port=3001",
 		"build": "vite build",
@@ -28,6 +30,7 @@
 		"@tanstack/react-router": "^1.92.3",
 		"@tanstack/router-devtools": "^1.92.3",
 		"justd-icons": "^1.10.8",
+		"motion": "^11.15.0",
 		"react": "^19.0.0",
 		"react-aria-components": "^1.5.0",
 		"react-dom": "^19.0.0"

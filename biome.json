@@ -18,6 +18,7 @@
 				"useArrowFunction": "error"
 			},
 			"a11y": {
+				"useAnchorContent": "off",
 				"noSvgWithoutTitle": "off"
 			},
 			"correctness": {
@@ -30,7 +31,14 @@
 				"noConsoleLog": "warn"
 			},
 			"nursery": {
-				"useSortedClasses": "error"
+				"useSortedClasses": {
+					"level": "error",
+					"fix": "safe",
+					"options": {
+						"attributes": ["classList"],
+						"functions": ["cn", "twJoin", "composeRenderProps", "composeTailwindRenderProps"]
+					}
+				}
 			}
 		},
 		"ignore": ["node_modules", ".next", "dist"]
