@@ -11,7 +11,7 @@ function RootComponent() {
 	return (
 		<Providers>
 			<Outlet />
-			<TanStackRouterDevtools position="bottom-right" />
+			{process.env.NODE_ENV === "development" && <TanStackRouterDevtools position="bottom-right" />}
 		</Providers>
 	)
 }
