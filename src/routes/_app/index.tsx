@@ -12,7 +12,7 @@ function HomeComponent() {
 		<div>
 			<Header
 				title="Justd Starter Kit"
-				description="Tanstack Router Starter Kit with Tailwind CSS, TypeScript, React, React Aria Components, Justd Components, Framer Motion, and more."
+				description="Tanstack Router Starter Kit with Tailwind CSS, TypeScript, React, React Aria Components, Justd Components, Motion, and more."
 			/>
 			<Resources />
 		</div>
