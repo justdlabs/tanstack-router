@@ -36,7 +36,7 @@
 					"fix": "safe",
 					"options": {
 						"attributes": ["classList"],
-						"functions": ["cn", "twJoin", "composeRenderProps", "composeTailwindRenderProps"]
+						"functions": ["cn", "tv", "twMerge", "twJoin", "composeRenderProps", "composeTailwindRenderProps"]
 					}
 				}
 			}
