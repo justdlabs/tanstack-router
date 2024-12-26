@@ -15,7 +15,9 @@
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.4",
 		"@tailwindcss/vite": "^4.0.0-beta.8",
+		"@tanstack/config": "^0.15.0",
 		"@tanstack/router-plugin": "^1.91.1",
+		"@tanstack/start": "^1.92.4",
 		"@types/react": "^19.0.2",
 		"@types/react-dom": "^19.0.2",
 		"@vitejs/plugin-react": "^4.3.4",
@@ -33,6 +35,7 @@
 		"motion": "^11.15.0",
 		"react": "^19.0.0",
 		"react-aria-components": "^1.5.0",
-		"react-dom": "^19.0.0"
+		"react-dom": "^19.0.0",
+		"unenv": "^1.10.0"
 	}
 }
