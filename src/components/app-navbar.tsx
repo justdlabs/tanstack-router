@@ -18,13 +18,13 @@ export function AppNavbar(props: React.ComponentProps<typeof Navbar>) {
 
 				<Navbar.Section className="ml-auto hidden md:flex">
 					<Navbar.Flex className="sm:gap-x-1">
-						<Button appearance="plain" size="square-petite" aria-label="Search for products">
+						<Button intent="plain" size="square-petite" aria-label="Search for products">
 							<IconSearch />
 						</Button>
-						<Button appearance="plain" size="square-petite" aria-label="Your Bag">
+						<Button intent="plain" size="square-petite" aria-label="Your Bag">
 							<IconShoppingBag />
 						</Button>
-						<ThemeSwitcher appearance="plain" />
+						<ThemeSwitcher intent="plain" />
 					</Navbar.Flex>
 					<Separator orientation="vertical" className="mr-3 ml-1 h-6" />
 					<Navbar.Item href="/login">Login</Navbar.Item>
@@ -41,13 +41,13 @@ export function AppNavbar(props: React.ComponentProps<typeof Navbar>) {
 				</Navbar.Flex>
 				<Navbar.Flex>
 					<Navbar.Flex>
-						<Button appearance="plain" size="square-petite" aria-label="Search for products">
+						<Button intent="plain" size="square-petite" aria-label="Search for products">
 							<IconSearch />
 						</Button>
-						<Button appearance="plain" size="square-petite" aria-label="Your Bag">
+						<Button intent="plain" size="square-petite" aria-label="Your Bag">
 							<IconShoppingBag />
 						</Button>
-						<ThemeSwitcher appearance="plain" />
+						<ThemeSwitcher intent="plain" />
 					</Navbar.Flex>
 					<Separator orientation="vertical" className="mr-3 ml-1 h-6" />
 					<Navbar.Item href="/login">

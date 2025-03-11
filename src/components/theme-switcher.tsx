@@ -6,7 +6,7 @@ import { useTheme } from "@/components/theme-provider"
 
 export function ThemeSwitcher({
 	shape = "square",
-	appearance = "outline",
+	intent = "outline",
 	className,
 	...props
 }: React.ComponentProps<typeof Button>) {
@@ -20,7 +20,7 @@ export function ThemeSwitcher({
 	return (
 		<Button
 			shape={shape}
-			appearance={appearance}
+			intent={intent}
 			size="square-petite"
 			className={composeTailwindRenderProps(className, "**:data-[slot=icon]:text-fg")}
 			aria-label="Switch theme"
