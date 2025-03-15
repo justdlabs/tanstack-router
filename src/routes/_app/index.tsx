@@ -72,7 +72,7 @@ export function Resources() {
 					</Card>
 				</div>
 				<div className="relative">
-					<a target="_blank" href="https://irsyad.co/s" aria-label="Templates" rel="noreferrer" />
+					<a target="_blank" href="https://blocks.getjustd.com" aria-label="Templates" rel="noreferrer" />
 					<Card className="inset-ring inset-ring-fg/10 inset-shadow-fg/10 inset-shadow-xs border-0 bg-bg dark:inset-ring-fg/5 dark:bg-secondary/50">
 						<Card.Header>
 							<Card.Title>Templates</Card.Title>

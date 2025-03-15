@@ -32,7 +32,7 @@
 		"@tanstack/react-router": "^1.114.13",
 		"@tanstack/router-devtools": "^1.114.13",
 		"justd-icons": "^1.10.25",
-		"motion": "^12.4.11",
+		"motion": "^12.5.0",
 		"react": "^19.0.0",
 		"react-aria-components": "^1.7.1",
 		"react-dom": "^19.0.0",

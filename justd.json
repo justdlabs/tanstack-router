@@ -4,5 +4,6 @@
 	"utils": "src/utils",
 	"gray": "zinc",
 	"css": "src/index.css",
-	"alias": "@"
+	"alias": "@",
+	"language": "typescript"
 }
