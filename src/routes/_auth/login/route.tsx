@@ -1,5 +1,8 @@
 import { createFileRoute } from "@tanstack/react-router"
-import { Button, Card, Link, TextField } from "ui"
+import { Button } from "@/components/ui/button"
+import { Card } from "@/components/ui/card"
+import { TextField } from "@/components/ui/text-field"
+import { Link } from "@/components/ui/link"
 import { Form } from "react-aria-components"
 
 export const Route = createFileRoute("/_auth/login")({
@@ -15,7 +18,7 @@ function RouteComponent() {
 					<TextField isRequired placeholder="John Doe" name="name" label="Name" />
 					<TextField isRequired placeholder="john@domain.com" name="email" label="Email" />
 				</Card.Content>
-				<Card.Footer className="justify-between">
+				<Card.Footer className="mt-6 justify-between">
 					<Link intent="secondary" className="text-sm hover:underline" href="/register">
 						Don't have an account?
 					</Link>

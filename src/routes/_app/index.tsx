@@ -1,4 +1,5 @@
-import { Card, Container } from "ui"
+import { Card } from "@/components/ui/card"
+import { Container } from "@/components/ui/container"
 import { createFileRoute } from "@tanstack/react-router"
 import * as React from "react"
 import { Header } from "@/components/header"
@@ -11,8 +12,8 @@ function HomeComponent() {
 	return (
 		<div>
 			<Header
-				title="Justd Starter Kit"
-				description="Justd Tanstack Router Starter Kit with Tailwind CSS, TypeScript, React, React Aria Components, Justd Components, Motion, and more."
+				title="Intent UI Starter Kit"
+				description="Intent UI Tanstack Router Starter Kit with Tailwind CSS, TypeScript, React, React Aria Components, Intent UI Components, Motion, and more."
 			/>
 			<Resources />
 		</div>
@@ -24,19 +25,19 @@ export function Resources() {
 		<Container>
 			<div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3 [&_.grid-cell]:relative [&_a]:absolute [&_a]:inset-0 [&_a]:size-full [&_a]:cursor-pointer *:[.relative]:*:data-[slot=card]:h-32">
 				<div className="relative">
-					<a target="_blank" href="https://getjustd.com" aria-label="Justd" rel="noreferrer" />
+					<a target="_blank" href="https://intentui.com" aria-label="Intent UI" rel="noreferrer" />
 					<Card className="inset-ring inset-ring-fg/10 inset-shadow-fg/10 inset-shadow-xs border-0 bg-bg dark:inset-ring-fg/5 dark:bg-secondary/50">
 						<Card.Header>
-							<Card.Title>Justd</Card.Title>
+							<Card.Title>Intent UI</Card.Title>
 							<Card.Description>
-								Justd is a chill set of React components, built on top of React Aria Components, all
+								Intent UI is a chill set of React components, built on top of React Aria Components, all
 								about keeping the web accessible.
 							</Card.Description>
 						</Card.Header>
 					</Card>
 				</div>
 				<div className="relative">
-					<a target="_blank" href="https://getjustd.com/colors" aria-label="Colors" rel="noreferrer" />
+					<a target="_blank" href="https://intentui.com/colors" aria-label="Colors" rel="noreferrer" />
 					<Card className="inset-ring inset-ring-fg/10 inset-shadow-fg/10 inset-shadow-xs border-0 bg-bg dark:inset-ring-fg/5 dark:bg-secondary/50">
 						<Card.Header>
 							<Card.Title>Colors</Card.Title>
@@ -48,7 +49,7 @@ export function Resources() {
 					</Card>
 				</div>
 				<div className="relative">
-					<a target="_blank" href="https://getjustd.com/themes" aria-label="Themes" rel="noreferrer" />
+					<a target="_blank" href="https://intentui.com/themes" aria-label="Themes" rel="noreferrer" />
 					<Card className="inset-ring inset-ring-fg/10 inset-shadow-fg/10 inset-shadow-xs border-0 bg-bg dark:inset-ring-fg/5 dark:bg-secondary/50">
 						<Card.Header>
 							<Card.Title>Themes</Card.Title>
@@ -60,7 +61,7 @@ export function Resources() {
 					</Card>
 				</div>
 				<div className="relative">
-					<a target="_blank" href="https://getjustd.com/icons" aria-label="Icons" rel="noreferrer" />
+					<a target="_blank" href="https://intentui.com/icons" aria-label="Icons" rel="noreferrer" />
 					<Card className="inset-ring inset-ring-fg/10 inset-shadow-fg/10 inset-shadow-xs border-0 bg-bg dark:inset-ring-fg/5 dark:bg-secondary/50">
 						<Card.Header>
 							<Card.Title>Icons</Card.Title>
@@ -72,12 +73,13 @@ export function Resources() {
 					</Card>
 				</div>
 				<div className="relative">
-					<a target="_blank" href="https://blocks.getjustd.com" aria-label="Templates" rel="noreferrer" />
+					<a target="_blank" href="https://blocks.intentui.com" aria-label="Templates" rel="noreferrer" />
 					<Card className="inset-ring inset-ring-fg/10 inset-shadow-fg/10 inset-shadow-xs border-0 bg-bg dark:inset-ring-fg/5 dark:bg-secondary/50">
 						<Card.Header>
 							<Card.Title>Templates</Card.Title>
 							<Card.Description>
-								Explore a variety of templates build with Justd, and Next.js, Tailwind CSS, and more.
+								Explore a variety of templates build with Intent UI, and Next.js, Tailwind CSS, and
+								more.
 							</Card.Description>
 						</Card.Header>
 					</Card>

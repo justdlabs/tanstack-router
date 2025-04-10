@@ -1,15 +1,17 @@
 "use client"
 
 import { ThemeSwitcher } from "@/components/theme-switcher"
-import { IconBrandJustd, IconCirclePerson, IconSearch, IconShoppingBag } from "justd-icons"
-import { Button, Navbar, Separator } from "ui"
+import { IconBrandIntentui, IconCirclePerson, IconSearch, IconShoppingBag } from "@intentui/icons"
+import { Button } from "@/components/ui/button"
+import { Navbar } from "@/components/ui/navbar"
+import { Separator } from "@/components/ui/separator"
 
 export function AppNavbar(props: React.ComponentProps<typeof Navbar>) {
 	return (
 		<Navbar {...props}>
 			<Navbar.Nav>
 				<Navbar.Logo aria-label="Goto documenation of Navbar" href="/">
-					<IconBrandJustd className="size-6 sm:size-5" />
+					<IconBrandIntentui className="size-6 sm:size-5" />
 				</Navbar.Logo>
 				<Navbar.Section>
 					<Navbar.Item href="/">Home</Navbar.Item>
@@ -36,7 +38,7 @@ export function AppNavbar(props: React.ComponentProps<typeof Navbar>) {
 					<Navbar.Trigger className="-ml-2" />
 					<Separator orientation="vertical" className="h-6 sm:mx-1" />
 					<Navbar.Logo aria-label="Goto documenation of Navbar" href="/">
-						<IconBrandJustd className="size-5" />
+						<IconBrandIntentui className="size-5" />
 					</Navbar.Logo>
 				</Navbar.Flex>
 				<Navbar.Flex>

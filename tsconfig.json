@@ -15,8 +15,7 @@
 		"strict": true,
 		"noFallthroughCasesInSwitch": true,
 		"paths": {
-			"@/*": ["./src/*"],
-			"ui": ["./src/components/ui/index.ts"]
+			"@/*": ["./src/*"]
 		}
 	},
 	"include": ["src"]
